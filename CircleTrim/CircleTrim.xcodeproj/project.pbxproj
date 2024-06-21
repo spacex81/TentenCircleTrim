@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C888CEF22C257274007920AD /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CEF12C257274007920AD /* AppApp.swift */; };
-		C888CEF42C257274007920AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CEF32C257274007920AD /* ContentView.swift */; };
-		C888CEF62C257275007920AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CEF52C257275007920AD /* Assets.xcassets */; };
-		C888CEF92C257275007920AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CEF82C257275007920AD /* Preview Assets.xcassets */; };
+		C888CFC22C257E13007920AD /* CircleTrimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CFC12C257E13007920AD /* CircleTrimApp.swift */; };
+		C888CFC42C257E13007920AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CFC32C257E13007920AD /* ContentView.swift */; };
+		C888CFC62C257E15007920AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CFC52C257E15007920AD /* Assets.xcassets */; };
+		C888CFC92C257E15007920AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CFC82C257E15007920AD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C888CEEE2C257274007920AD /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C888CEF12C257274007920AD /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
-		C888CEF32C257274007920AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C888CEF52C257275007920AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C888CEF82C257275007920AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C888CFBE2C257E13007920AD /* CircleTrim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleTrim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888CFC12C257E13007920AD /* CircleTrimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTrimApp.swift; sourceTree = "<group>"; };
+		C888CFC32C257E13007920AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C888CFC52C257E15007920AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C888CFC82C257E15007920AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C888CEEB2C257274007920AD /* Frameworks */ = {
+		C888CFBB2C257E13007920AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C888CEE52C257274007920AD = {
+		C888CFB52C257E13007920AD = {
 			isa = PBXGroup;
 			children = (
-				C888CEF02C257274007920AD /* App */,
-				C888CEEF2C257274007920AD /* Products */,
+				C888CFC02C257E13007920AD /* CircleTrim */,
+				C888CFBF2C257E13007920AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C888CEEF2C257274007920AD /* Products */ = {
+		C888CFBF2C257E13007920AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEEE2C257274007920AD /* App.app */,
+				C888CFBE2C257E13007920AD /* CircleTrim.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C888CEF02C257274007920AD /* App */ = {
+		C888CFC02C257E13007920AD /* CircleTrim */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEF12C257274007920AD /* AppApp.swift */,
-				C888CEF32C257274007920AD /* ContentView.swift */,
-				C888CEF52C257275007920AD /* Assets.xcassets */,
-				C888CEF72C257275007920AD /* Preview Content */,
+				C888CFC12C257E13007920AD /* CircleTrimApp.swift */,
+				C888CFC32C257E13007920AD /* ContentView.swift */,
+				C888CFC52C257E15007920AD /* Assets.xcassets */,
+				C888CFC72C257E15007920AD /* Preview Content */,
 			);
-			path = App;
+			path = CircleTrim;
 			sourceTree = "<group>";
 		};
-		C888CEF72C257275007920AD /* Preview Content */ = {
+		C888CFC72C257E15007920AD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEF82C257275007920AD /* Preview Assets.xcassets */,
+				C888CFC82C257E15007920AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C888CEED2C257274007920AD /* App */ = {
+		C888CFBD2C257E13007920AD /* CircleTrim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C888CEFC2C257275007920AD /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = C888CFCC2C257E15007920AD /* Build configuration list for PBXNativeTarget "CircleTrim" */;
 			buildPhases = (
-				C888CEEA2C257274007920AD /* Sources */,
-				C888CEEB2C257274007920AD /* Frameworks */,
-				C888CEEC2C257274007920AD /* Resources */,
+				C888CFBA2C257E13007920AD /* Sources */,
+				C888CFBB2C257E13007920AD /* Frameworks */,
+				C888CFBC2C257E13007920AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = App;
-			productName = App;
-			productReference = C888CEEE2C257274007920AD /* App.app */;
+			name = CircleTrim;
+			productName = CircleTrim;
+			productReference = C888CFBE2C257E13007920AD /* CircleTrim.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C888CEE62C257274007920AD /* Project object */ = {
+		C888CFB62C257E13007920AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					C888CEED2C257274007920AD = {
+					C888CFBD2C257E13007920AD = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = C888CEE92C257274007920AD /* Build configuration list for PBXProject "App" */;
+			buildConfigurationList = C888CFB92C257E13007920AD /* Build configuration list for PBXProject "CircleTrim" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C888CEE52C257274007920AD;
-			productRefGroup = C888CEEF2C257274007920AD /* Products */;
+			mainGroup = C888CFB52C257E13007920AD;
+			productRefGroup = C888CFBF2C257E13007920AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C888CEED2C257274007920AD /* App */,
+				C888CFBD2C257E13007920AD /* CircleTrim */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C888CEEC2C257274007920AD /* Resources */ = {
+		C888CFBC2C257E13007920AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C888CEF92C257275007920AD /* Preview Assets.xcassets in Resources */,
-				C888CEF62C257275007920AD /* Assets.xcassets in Resources */,
+				C888CFC92C257E15007920AD /* Preview Assets.xcassets in Resources */,
+				C888CFC62C257E15007920AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C888CEEA2C257274007920AD /* Sources */ = {
+		C888CFBA2C257E13007920AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C888CEF42C257274007920AD /* ContentView.swift in Sources */,
-				C888CEF22C257274007920AD /* AppApp.swift in Sources */,
+				C888CFC42C257E13007920AD /* ContentView.swift in Sources */,
+				C888CFC22C257E13007920AD /* CircleTrimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C888CEFA2C257275007920AD /* Debug */ = {
+		C888CFCA2C257E15007920AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		C888CEFB2C257275007920AD /* Release */ = {
+		C888CFCB2C257E15007920AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,14 @@
 			};
 			name = Release;
 		};
-		C888CEFD2C257275007920AD /* Debug */ = {
+		C888CFCD2C257E15007920AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CircleTrim/Preview Content\"";
 				DEVELOPMENT_TEAM = GHJU9V8GHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.App;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.CircleTrim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		C888CEFE2C257275007920AD /* Release */ = {
+		C888CFCE2C257E15007920AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CircleTrim/Preview Content\"";
 				DEVELOPMENT_TEAM = GHJU9V8GHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.App;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.CircleTrim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C888CEE92C257274007920AD /* Build configuration list for PBXProject "App" */ = {
+		C888CFB92C257E13007920AD /* Build configuration list for PBXProject "CircleTrim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C888CEFA2C257275007920AD /* Debug */,
-				C888CEFB2C257275007920AD /* Release */,
+				C888CFCA2C257E15007920AD /* Debug */,
+				C888CFCB2C257E15007920AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C888CEFC2C257275007920AD /* Build configuration list for PBXNativeTarget "App" */ = {
+		C888CFCC2C257E15007920AD /* Build configuration list for PBXNativeTarget "CircleTrim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C888CEFD2C257275007920AD /* Debug */,
-				C888CEFE2C257275007920AD /* Release */,
+				C888CFCD2C257E15007920AD /* Debug */,
+				C888CFCE2C257E15007920AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C888CEE62C257274007920AD /* Project object */;
+	rootObject = C888CFB62C257E13007920AD /* Project object */;
 }
